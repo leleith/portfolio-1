@@ -1,5 +1,9 @@
 # Portfolio
-This repository is my portfolio for data engineering.
+This repository is one of my portfolio projects for data engineering.  
+This one has:
+- API client sending data to Kafka
+- Kafka schema registry validates the data and send to storage
+- MinIO storaging data, separated into two main Kafka topics
 
 ## Requirements
 - Docker Desktop
@@ -8,7 +12,7 @@ This repository is my portfolio for data engineering.
 ## Build and Up the platform
 Execute the following command
 ```
-$ cd portfolio
+$ cd portfolio-1
 $ docker compose up -d --build
 $ docker ps -a
 ```
